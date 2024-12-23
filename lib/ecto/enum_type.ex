@@ -1,4 +1,4 @@
-defmodule Zerokit.Database.Type do
+defmodule Zerokit.Ecto.EnumType do
   defmacro __using__(opts) do
     quote bind_quoted: [opts: opts], unquote: false do
       types = Keyword.fetch!(opts, :type)

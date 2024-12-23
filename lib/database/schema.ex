@@ -1,4 +1,4 @@
-defmodule Zerokit.Schema do
+defmodule Zerokit.Database.Schema do
   @moduledoc false
   import Ecto.Query
 
